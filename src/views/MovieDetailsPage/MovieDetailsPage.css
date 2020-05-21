@@ -1,0 +1,87 @@
+.MovieDetailsPage-container {
+  padding: 20px 40px 40px 40px;
+}
+
+.MovieDetailsPage-button {
+  display: block;
+  height: 29px;
+  width: 100px;
+  border: none;
+  font-size: 16px;
+  line-height: 29px;
+  font-family: sans-serif;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: rgb(255, 58, 58);
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+.MovieDetailsPage-img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.MovieDetailsPage-title {
+  font-size: 35px;
+  font-family: sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.MovieDetailsPage-rate {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: block;
+}
+
+.MovieDetailsPage-sub-title {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.MovieDetailsPage-description {
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.MovieDetailsPage-link {
+  font-size: 19px;
+  font-family: sans-serif;
+  color: #000;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.MovieDetailsPage-link:hover,
+.MovieDetailsPage-link:focus {
+  color: red;
+}
+
+@media screen and (min-width: 725px) {
+
+  .MovieDetailsPage-block {
+    display: flex;
+  }
+
+  .MovieDetailsPage-img {
+    margin-right: 30px;
+  }
+
+  .MovieDetailsPage-block--text {
+    max-width: 500px;
+  }
+}

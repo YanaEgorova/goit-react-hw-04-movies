@@ -1,0 +1,60 @@
+.Cast-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Cast-item {
+  width: 50%;
+}
+
+.Cast-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.Cast-img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.Cast-name {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Cast-character {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.Cast-text {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #000;
+}
+
+@media screen and (min-width: 425px) {
+  .Cast-item {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 725px) {
+  .Cast-item {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Cast-item {
+    width: 20%;
+  }
+}
